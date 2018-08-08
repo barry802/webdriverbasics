@@ -27,5 +27,7 @@ public class FirstTest
         driver.get("https://compendiumdev.co.uk/selenium/");
 
         assertTrue(driver.getTitle().startsWith("Selenium Simplified"));
+
+        driver.close();
     }
 }
